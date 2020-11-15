@@ -1,0 +1,17 @@
+.back {/* Back */
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: 550px;
+    top: 9px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    /* align-items: center; */
+    color: #8692A6;
+    justify-content: space-between;
+    cursor: pointer;
+}

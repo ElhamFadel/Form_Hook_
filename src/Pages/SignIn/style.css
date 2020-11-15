@@ -1,0 +1,45 @@
+.signIn {
+    display: flex;
+}
+
+
+.leftSign {
+    width: 55%;
+    margin: 3rem auto 0 ;
+}
+aside.right_side {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+.signIn .quote{
+    position: absolute;
+    width: 23rem;
+    left: 80px;
+    top: 8rem;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #696F79;
+}
+
+.Large_Logo {
+    position: absolute;
+    top: 1rem;
+    left: 3.7rem;
+}
+aside.left_side {
+    display: flex;
+    flex-direction: column;
+    flex: 50% 1;
+    position: relative;
+    height: 100vh;
+}
+.signIn img {
+    position: absolute;
+    width: 35%;
+    right: 0;
+    bottom: 0;
+}

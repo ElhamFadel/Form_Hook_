@@ -1,0 +1,34 @@
+.textOr {
+    text-align: center;
+    position: relative;
+    margin: 7px 0;
+    width:90%;
+}
+.textOr span::before {
+    display: block;
+    content: "";
+   
+    height: 5px;
+    width: 5px;
+    content: '';
+    width: 43%;
+    border-bottom: solid 1px #5c5c5c30;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    z-index: 1;
+}
+.textOr span::after {
+    display: block;
+    content: "";
+
+    height: 5px;
+    width: 5px;
+    content: '';
+    width: 43%;
+    border-bottom: solid 1px #5c5c5c30;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    z-index: 1;
+}

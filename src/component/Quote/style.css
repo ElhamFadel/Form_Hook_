@@ -1,0 +1,27 @@
+   .quote{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    /* align-items: center; */
+    color: #FFFFFF;
+    flex-direction: column;
+}
+p.hideo {
+    padding-top: 2rem;
+    /* margin-bottom: 0rem; */
+}
+span.shap {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 1rem;
+    /* position: absolute; */
+    /* width: 33.5px; */
+    /* height: 33px; */
+    /* left: 517.5px; */
+    /* top: 639px; */
+    /* background: #FFFFFF; */
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}

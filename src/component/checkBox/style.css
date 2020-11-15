@@ -1,0 +1,8 @@
+.filed_check {
+    display: flex;
+}
+input[type="checkbox"] {
+    width: 5%;
+    align-items: center;
+    color: #696F79;
+}

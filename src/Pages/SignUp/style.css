@@ -1,0 +1,54 @@
+.signup_page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: stretch;
+}
+aside.split.rightSide {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    height: 100%;
+}
+aside.split.leftSide {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+.container {
+    width: 65%;
+    margin: 2.5rem auto 0;
+}
+
+.head::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25%;
+    border-bottom: 1px solid #F5F5F5;
+    top: 7rem;
+    
+}
+/****/
+.wrapper_center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 61%;
+    margin: 0rem auto 0;
+    padding-top: 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
