@@ -16,18 +16,23 @@ aside.split.leftSide {
     flex-direction: column;
     flex: 50%;
 }
+form {
+    margin-top: 2rem;
+}
 .container {
     width: 65%;
     margin: 2.5rem auto 0;
 }
-
+.btn_wrap {
+    margin-top: 1rem;
+}
 .head::after {
     content: "";
     position: absolute;
     display: block;
     width: 25%;
     border-bottom: 1px solid #F5F5F5;
-    top: 7rem;
+    top: 9rem;
     
 }
 /****/

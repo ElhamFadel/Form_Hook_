@@ -8,6 +8,7 @@ import {
 import "./App.css";
 import SignUp from "./Pages/SignUp/";
 import SignIn from "./Pages/SignIn";
+import Home from "./Pages/Home";
 import Welcom from "./Pages/SignIn";
 
 function App() {
@@ -19,10 +20,12 @@ function App() {
           <Route path="/SignIn" exact>
             <SignIn />
           </Route>
-          <Route path="/" exact>
+          {/* <Route path="/" exact>
             <SignUp />
+          </Route> */}
+          <Route path="/" exact>
+            <Home />
           </Route>
-
           <Route path="/Welcom" exact>
             <Welcom />
           </Route>

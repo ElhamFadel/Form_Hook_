@@ -2,7 +2,7 @@ h1.headerH1 {
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 36px;
     align-items: center;
     color: #000000;
@@ -13,7 +13,8 @@ p.para {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 18px;
     width: 81%;
+    margin-top: 1rem;
 }

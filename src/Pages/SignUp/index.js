@@ -18,6 +18,7 @@ function SignUp() {
               width: "50%",
               height: "-webkit-fill-available",
             }}
+            alt="imagel"
           />
 
           <Logo size="small" />
