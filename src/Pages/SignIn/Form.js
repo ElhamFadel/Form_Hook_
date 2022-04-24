@@ -62,7 +62,7 @@ const Form = () => {
         </Button>
       </form>
       <p className="paraQuestion">
-        Do you already have an account? <Link to="/"> Register </Link>{" "}
+        Do you already have an account? <Link to="/signup"> Register </Link>{" "}
       </p>
     </div>
   );
